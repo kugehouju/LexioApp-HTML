@@ -2,7 +2,7 @@
 function HomePage() {
   return `
     <section>
-      <h2>Welcome to My Website</h2>
+      <h1>Welcome to My Website</h1>
       <p>This is the homepage.</p>
     </section>
   `;
