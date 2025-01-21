@@ -2,9 +2,9 @@ function Dictionary() {
   return `
     <div class="search-container">
       <input type="text" id="search-bar" placeholder="検索" />
-      <a href="../../../public/dictonary.html"><button id="search-button">検索</button></a>
+      <button id="search-button">検索</button>
     </div>
-    <div id="dictionary-content" style="display: none">
+    <div id="dictionary-content">
       <h1>サマリー 【summary】</h1>
       <ul>
         <li>まとめ、要約</li>
