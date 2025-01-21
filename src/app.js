@@ -1,7 +1,7 @@
 // src/App.js
 import Header from "./components/header/header.js";
 import Footer from "./components/footer/footer.js";
-import HomePage from "./pages/Home.js";
+import HomePage from "./pages/home/home.js";
 
 function App(rootElement) {
   // Header を描画
