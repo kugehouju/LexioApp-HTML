@@ -34,3 +34,8 @@
   text-decoration: none;
   background-color: #6780ff;
 }
+
+.BackAgainPage button a {
+  color: #fefefe;
+  text-decoration: none;
+}

@@ -3,7 +3,7 @@ function HomePage() {
   return `
 <div class="Quiz">
       <div class="QuizButton">
-        <a href="#">コミュニケーション関連</a>
+        <a href="/src/pages/quiz/quiz1/quiz1.html">コミュニケーション関連</a>
         <p>例：ASAP,キャッチアップ,リマインド...</p>
       </div>
   

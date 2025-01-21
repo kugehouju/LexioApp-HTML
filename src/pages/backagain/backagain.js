@@ -13,7 +13,7 @@ function Backagain() {
             <p>文章を読み、答えてください。</p>
           </div>  
     </div>
-    <button href="#" class="StartBtn">回答する</button>
+    <button><a  class="StartBtn" href="../../../src/pages/backagainquiz/quiz1/quiz1.html">回答する</a></button>
   </div>    
 `;
 }

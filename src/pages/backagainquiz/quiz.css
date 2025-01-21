@@ -1,0 +1,93 @@
+body {
+  padding: 0 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  padding: 0 10px;
+  position: relative;
+}
+
+header svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+header p {
+  flex-grow: 1;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.options button {
+  border: 3px solid #e7e7e7;
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: 350px;
+  height: 70px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  background-color: #fefefe;
+}
+
+.options button:hover {
+  border: 3px solid #6780ff;
+}
+
+.next {
+  border-radius: 50px;
+  padding: 20px 30px;
+  width: 290px;
+  height: 20px;
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fefefe;
+  background-color: #6780ff;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 9999;
+}
+
+.overlay {
+  position: fixed;
+  bottom: -200px;
+  left: 0;
+  height: 180px;
+  width: 100%;
+  background-color: #b4c0ff;
+  color: white;
+  text-align: center;
+  /* display: none; */
+  border-radius: 10px 10px 10px 10px;
+  transition: bottom 0.5s ease;
+  z-index: 9998;
+}
+
+.overlay.show {
+  display: block;
+  bottom: 0;
+}
