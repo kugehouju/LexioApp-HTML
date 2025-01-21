@@ -4,13 +4,14 @@ footer {
   height: 175px;
   display: flex;
   justify-content: space-between;
-  padding: 20px 66px;
+  padding: 40px 150px;
   position: fixed;
   bottom: 0;
+  border-radius: 24px 24px 0 0;
 }
 
 footer figure {
-  width: 25px;
-  height: 25px;
+  width: 60px;
+  height: 60px;
   fill: #fefefe;
 }
