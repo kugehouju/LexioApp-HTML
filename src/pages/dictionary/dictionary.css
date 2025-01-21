@@ -1,0 +1,61 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.search-container input {
+  width: 650px;
+  height: 100px;
+  /* border: 1px solid #333; */
+  border-radius: 50px;
+  font-size: 40px;
+  padding-left: 30px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, 0.3),
+    -1px -1px 2px 0px rgba(195, 195, 195, 0.5),
+    -2px 2px 4px 0px rgba(195, 195, 195, 0.2) inset,
+    2px -2px 4px 0px rgba(195, 195, 195, 0.2) inset,
+    -2px -2px 4px 0px rgba(255, 255, 255, 0.9) inset,
+    2px 2px 5px 0px rgba(195, 195, 195, 0.9) inset;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: #333;
+}
+
+#search-button {
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 30px;
+  color: #fefefe;
+  background: linear-gradient(135deg, #627ae9 100%, #6c86ff 0%);
+
+  box-shadow: 1px 1px 2px 0px rgba(124, 154, 255, 0.3) inset,
+    -1px -1px 2px 0px rgba(82, 102, 195, 0.5) inset,
+    -1px 1px 2px 0px rgba(82, 102, 195, 0.2),
+    1px -1px 2px 0px rgba(82, 102, 195, 0.2),
+    -1px -1px 2px 0px rgba(124, 154, 255, 0.9),
+    1px 1px 3px 0px rgba(82, 102, 195, 0.9);
+}
+
+#dictionary-content {
+  padding: 40px;
+  font-size: 40px;
+}
+
+#dictionary-content h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+#dictionary-content ul li {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
