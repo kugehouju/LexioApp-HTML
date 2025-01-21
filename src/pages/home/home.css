@@ -1,0 +1,30 @@
+.Quiz {
+  padding-top: 10px;
+}
+
+.QuizButton a {
+  border: 10px solid #e7e7e7;
+  border-radius: 30px;
+  padding: 20px 30px;
+  height: 170px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.QuizButton p {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.Quiz p {
+  margin-bottom: 60px;
+}
+
+.QuizButton a:hover {
+  border: 10px solid #6780ff;
+}
