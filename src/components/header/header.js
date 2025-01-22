@@ -3,7 +3,7 @@ function Header() {
   return `
     <header>
       <img src="../../../public/assets/userIcon.png" alt="ユーザーがアップロードした画像" class="userIcon">
-      <p class="userName">hi👋<br><span>username!</span></p>
+      <p class="userName">hi👋<br><span>rirugiliyangugili</span></p>
 
       <div class="Streak">
         <p><span>10</span></p>

@@ -1,7 +1,7 @@
 function Dictionary() {
   return `
     <div class="search-container">
-      <input type="text" id="search-bar" placeholder="検索" />
+      <input type="text" id="search-bar" placeholder="サマリー" />
       <button id="search-button">検索</button>
     </div>
     <div id="dictionary-content">

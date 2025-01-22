@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", () => {
       const isCorrect = button.textContent === correctAnswer;
       if (isCorrect) {
-        overlay.innerHTML = "<p>正解！<br>アメイジング！！</p>";
+        overlay.innerHTML =
+          "<p><strong>正解！</strong><br>アメイジング！！</p>";
         overlay.style.backgroundColor = "#b4c0ff";
         nextButton.style.backgroundColor = "blue";
       } else {
-        overlay.innerHTML = `<p>不正解...😭<br>正解は「${correctAnswer}」だよ！</p>`;
+        overlay.innerHTML = `<p><strong>不正解...😭</strong><br>正解は「${correctAnswer}」だよ！</p>`;
         overlay.style.backgroundColor = "#FF9698";
         nextButton.style.backgroundColor = "#FF5E61";
       }

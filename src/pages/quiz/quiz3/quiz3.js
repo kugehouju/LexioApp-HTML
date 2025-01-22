@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", () => {
       const isCorrect = button.textContent === correctAnswer;
       if (isCorrect) {
-        overlay.innerHTML = "<p>正解！<br>ナイス！君はすごいね！</p>";
+        overlay.innerHTML =
+          "<p><strong>正解！</strong><br>ナイス！君はすごいね！</p>";
         overlay.style.backgroundColor = "#b4c0ff";
         nextButton.style.backgroundColor = "blue";
       } else {
