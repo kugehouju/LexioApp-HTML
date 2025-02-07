@@ -1,6 +1,6 @@
 // src/pages/dictionary/backagain.js
 function Backagain() {
-  return `
+    return `
   <div class="BackAgainPage">
     <div class="FailedQuiz">
         <h1>最近の間違いを直そう。</h1>
@@ -13,7 +13,7 @@ function Backagain() {
             <p>文章を読み、答えてください。</p>
           </div>  
     </div>
-    <button><a  class="StartBtn" href="../../../src/pages/backagainquiz/quiz1/quiz1.html">回答する</a></button>
+    <button><a  class="StartBtn" href="../src/pages/backagainquiz/quiz1/quiz1.html">回答する</a></button>
   </div>    
 `;
 }

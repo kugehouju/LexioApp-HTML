@@ -25,9 +25,13 @@ header p {
   flex-grow: 1;
 }
 
-span {
+.question {
   font-size: 18px;
   font-weight: bold;
+}
+
+.target {
+  text-decoration: underline;
 }
 
 h1 {

@@ -25,13 +25,17 @@ header p {
   flex-grow: 1;
 }
 
-span {
+.question {
   font-size: 18px;
   font-weight: bold;
 }
 
 h1 {
   font-size: 28px;
+}
+
+.target {
+  text-decoration: underline;
 }
 
 .options button {

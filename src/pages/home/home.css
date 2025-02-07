@@ -25,6 +25,10 @@
   margin-bottom: 60px;
 }
 
-.QuizButton a:hover {
+.com a:hover {
   border: 10px solid #6780ff;
+}
+
+.QuizButton.blur {
+  filter: blur(10px);
 }
